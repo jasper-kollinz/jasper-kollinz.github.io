@@ -1,0 +1,153 @@
+
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+
+.about-pic {
+    border-radius: 5px;
+    margin: 70px auto 30px;
+    width: 100%;
+}
+.title {
+    color: #010101;
+    font-family: Nunito;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.subtitle {
+    color: #010101;
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.text {
+    /* Style for "On the oth" */
+    color: #798795;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 32px;
+    text-align: left;
+    /* Text style for "On the oth" */
+    color: #798795;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.card {
+    border-radius: 10px !important;
+}
+
+.card:hover {
+    box-shadow: lightgray 10px 10px 10px;
+}
+
+
+.card a{
+    color: black;
+    font-weight: 500;
+}
+.card a:hover {
+    color: #ff9f61;
+    text-decoration: none;
+}
+/* Sponsors */
+
+.nariman-film {
+    border: 1px solid red;
+    height: 118px;
+    box-shadow:  lightgray 5px 5px 5px;
+    /* background-color: white;
+    background-image: url(images/about-us/nariman-film.png) no-repeat;
+    background-position: center center; */
+    background: url(images/about-us/nariman-film.png) center no-repeat;
+
+}
+
+.nariman-film:hover {
+    /* background-image: url(images/about-us/nariman-films-white.png) center no-repeat #ff771f; */
+    background:  #ff771f url('images/about-us/nariman-films-white.png') center no-repeat;
+}
+
+/* 
+.experience {
+    background-color: rgba(0, 0, 0, 0.5) url(images/about-us/Слой_9.png) center no-repeat;
+} */
+
+
+.experience {
+    position:relative;
+    box-shadow: inset 0px -60px 150px black;
+
+}
+.play-button {
+    display: none;
+    position: absolute;
+    top:40%;
+    left:center;
+}
+.experience:hover .play-button {
+    display: block;
+}
+.experience-txt {
+    position:absolute;
+    bottom: 30px;
+    left: 30px;
+
+    color: #fff;
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: left;
+    /* Text style for "Our Experi" */
+
+}
+.experience:hover {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(99, 77, 19, 0.8));   
+}
+
+.experience-img {
+    z-index: -1;
+}
+
+.experience-title {
+    color: white;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: left;
+    position:absolute;
+    bottom:10px;
+    left: 30px;
+}
+
+
+.experience-gradient {
+    display: none;
+}
+
+.experience-gradient:hover {
+    display: block;
+    background-color: green;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+ }

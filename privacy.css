@@ -1,0 +1,16 @@
+.subtitle {
+  color: #010101;
+  font-family: Nunito;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.text, p {
+  color: black;
+  font-size: 18px;
+}
+
+li {
+  list-style: none;
+}

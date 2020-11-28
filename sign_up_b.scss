@@ -1,0 +1,201 @@
+
+body {
+    color: white;
+    background-color: #0e111a !important;
+
+}
+a {
+     color: #ff771f;
+}
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.links ,.card-login {
+    width: 500px;
+    @media (max-width:576px) {
+        width: 350px;
+    }
+}
+.links {
+    font-size: 20px;
+}
+.card-login {
+    background-color: rgb(23, 28, 50);
+    .welcome {
+        color: #ff771f;
+        font-family: Nunito;
+        font-size: 1.5rem;
+        letter-spacing: normal;
+        line-height: 1.9rem;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 3rem;
+    }
+    .azcinema {
+        color: #ffffff;
+        font-family: Nunito;
+        font-size: 2.5rem;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 0;
+    }
+}
+
+form {
+    position: relative;
+    p,span,input {
+        margin: 5px 50px;
+    }
+    a {
+        margin: 0;
+    }
+    .field {
+        border: none;
+        border-bottom: 1.5px solid gray;
+        background-color: transparent;
+        margin-left: 48px;
+
+        &:focus {
+            color: white;
+            border-bottom: 1.5px solid #b13d27;
+            outline:none;
+            transition-duration: 1s;
+        }
+    }
+
+    .signup {
+        position: relative;
+
+        span {
+            position: absolute;
+            top: 12px;
+            left: 165px;
+            
+            @media (max-width:576px) {
+                top: 5px;
+                left: 95px;
+            }
+        }
+     
+    }
+
+    .agree {
+        position: relative;
+        bottom: 22px;
+        left: -10px;
+       @media (max-width:576px) {
+            padding:0 55px;
+            left: 30px;
+       }
+
+    }
+
+
+}
+
+
+ input[type=checkbox] {
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     display: inline-block;
+     position: relative;
+     top: 10px;
+     width: 20px;
+     height: 20px;
+     outline: none;
+     border-radius: 50%;
+     transition: 0.1s ease;
+     background-color: #fff;
+     cursor: pointer;
+ }
+
+ input[type=checkbox]:checked {
+     background-image: url(images/ok.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-color: #3d34c3;
+ }
+
+ ::-webkit-input-placeholder {
+     font-family: Nunito
+ }
+
+ ::-moz-placeholder {
+     font-family: Nunito
+ }
+
+ /* Firefox 19+ */
+ :-moz-placeholder {
+     font-family: Nunito
+ }
+
+ /* Firefox 18- */
+ :-ms-input-placeholder {
+     font-family: Nunito
+ }
+
+
+
+.soc_buttons {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.5rem;
+}
+
+.soc {
+    display: inline-block;
+    border: 1px solid #162b61;
+    width: 2.85rem;
+    height: 2.85rem;
+    border-radius: 50px;
+    background-color: none;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.soc>i {
+    display: block;
+    font-size: 1rem;
+    position: relative;
+    top: 0.9rem;
+    left: 0.9rem;
+    color: #496cfe;
+}
+
+.soc:hover {
+    background-color: #ff771f;
+    color: white;
+    transition: 0.5s ease-in-out;
+
+
+}
+
+.soc:hover i {
+    color: white;
+    transition: 0.5s ease-in-out;
+
+}
+
+.soc:first-child i {
+    left: 1rem;
+}
+
+
+.error {
+    color:#ec3e3e;
+    margin-left: 48px
+}
+
+.password {
+    left: -90px !important;
+    @media (max-width:576px) {
+        left: -20px !important;
+    }
+}
+
+

@@ -1,0 +1,361 @@
+.newsDetails a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.newsCategories {
+  font-family: Nunito;
+}
+
+.newsCategories .btn:hover, .newsCategories .btn-link:hover {
+  text-decoration: none !important;
+  box-shadow: none !important;
+}
+
+.newsCategories .btn:active, .newsCategories .btn-link:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.newsCategories .btn:focus, .newsCategories .btn-link:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  text-decoration: none;
+}
+
+.newsCategories .card {
+  position: relative;
+}
+
+.newsCategories .card:hover {
+  box-shadow: none;
+}
+
+.newsCategories .card-body > a::before {
+  content: url(/images/newsDetails/tochka.png);
+  position: absolute;
+  left: 20px;
+  bottom: 23px;
+}
+
+.newsCategories li {
+  list-style: none;
+}
+
+.newsCategories li a {
+  font-weight: 700;
+}
+
+.newsCategories button a:hover {
+  color: red;
+}
+
+.newsCategories a {
+  color: #010101;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 10px;
+  line-height: 10px;
+  text-align: left;
+  /* Text style for "A, ll News" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  font-family: Nunito;
+}
+
+.newsCategories a:hover {
+  color: #ff771f;
+  font-style: normal;
+  letter-spacing: normal;
+  text-decoration: none;
+}
+
+.newsTitle {
+  height: 53px;
+  color: #222222;
+  color: #2c2d3e;
+  font-family: Nunito;
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 36px;
+  text-align: left;
+  /* Text style for "W, hat I'm" */
+  color: #222222;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.tags {
+  border-radius: 7px;
+  padding: 20px;
+  border: 1px solid lightgray;
+}
+
+.tags .col:hover a {
+  color: white;
+}
+
+.tags .tagsBody .col:hover {
+  background-color: orange;
+}
+
+.newsQuotes {
+  border: 2px solid #ff771f;
+  padding: 80px 80px 80px 50px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.newsQuotes span {
+  color: #000000;
+  font-family: Nunito;
+  font-size: 32px;
+  font-weight: 100;
+  letter-spacing: normal;
+  line-height: 48px;
+}
+
+@media (max-width: 768px) {
+  .newsQuotes span {
+    font-size: 22px;
+  }
+}
+@media (max-width: 576px) {
+  .newsQuotes span {
+    font-size: 18px;
+  }
+}
+.newsQuotes .hangouts {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+}
+
+.newsQuotes .quotesOpen {
+  font-family: Poppins;
+  font-size: 72px;
+  font-weight: 300;
+  color: #ff771f;
+}
+
+.newsQuotes .quotesClosed {
+  display: block;
+  transform: rotate(180deg) translate(5px, 30px);
+  font-family: Poppins;
+  font-size: 72px;
+  font-weight: 300;
+  color: #ff771f;
+}
+
+.soc i {
+  font-size: 18px;
+}
+
+.soc .facebook {
+  color: #45619d;
+}
+
+.soc .googlePlus {
+  color: #cf4539;
+}
+
+.soc .twitter {
+  color: #42c0fb;
+}
+
+.soc .skype {
+  color: #009ee5;
+}
+
+.soc .rss {
+  color: #fd9f13;
+}
+
+@media (max-width: 768px) {
+  .test {
+    flex-direction: column-reverse;
+  }
+}
+.newsDetails a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.newsCategories {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  font-family: Nunito;
+}
+.newsCategories .btn:hover, .newsCategories .btn-link:hover {
+  text-decoration: none !important;
+  box-shadow: none !important;
+}
+.newsCategories .btn:active, .newsCategories .btn-link:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.newsCategories .btn:focus, .newsCategories .btn-link:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  text-decoration: none;
+}
+.newsCategories .card {
+  position: relative;
+}
+.newsCategories .card:hover {
+  box-shadow: none;
+}
+.newsCategories .card-body > a::before {
+  content: url(/images/newsDetails/tochka.png);
+  position: absolute;
+  left: 20px;
+  bottom: 23px;
+}
+.newsCategories li {
+  list-style: none;
+}
+.newsCategories li a {
+  font-weight: 700;
+}
+.newsCategories button a:hover {
+  color: inherit;
+}
+.newsCategories button a {
+  color: #010101;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 10px;
+  line-height: 10px;
+  text-align: left;
+  /* Text style for "A, ll News" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  font-family: Nunito;
+}
+.newsCategories button a:hover {
+  color: #ff771f;
+  font-style: normal;
+  letter-spacing: normal;
+  text-decoration: none;
+}
+.newsCategories .newsTitle {
+  /* Style for "What I'm r" */
+  height: 53px;
+  color: #222222;
+  color: #2c2d3e;
+  font-family: Nunito;
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 36px;
+  text-align: left;
+  /* Text style for "W, hat I'm" */
+  color: #222222;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+.newsCategories .newsText {
+  /* Style for "LA weather" */
+  width: 770px;
+  height: 399px;
+  color: #798795;
+  color: #ffffff;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 32px;
+  text-align: left;
+  /* Text style for "LA weather" */
+  color: #798795;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+.newsCategories .tags {
+  border-radius: 7px;
+  padding: 20px;
+  border: 1px solid lightgray;
+}
+.newsCategories .tags .col:hover a {
+  color: white;
+}
+.newsCategories .tags .tagsBody .col:hover {
+  background-color: orange;
+}
+.newsCategories .newsQuotes {
+  border: 2px solid #ff771f;
+  padding: 80px 80px 80px 50px;
+  border-radius: 5px;
+  position: relative;
+}
+.newsCategories .newsQuotes span {
+  color: #000000;
+  font-family: Nunito;
+  font-size: 32px;
+  font-weight: 100;
+  letter-spacing: normal;
+  line-height: 48px;
+}
+@media (max-width: 768px) {
+  .newsCategories .newsQuotes span {
+    font-size: 22px;
+  }
+}
+@media (max-width: 576px) {
+  .newsCategories .newsQuotes span {
+    font-size: 18px;
+  }
+}
+.newsCategories .newsQuotes .hangouts {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+}
+.newsCategories .newsQuotes .quotesOpen {
+  font-family: Poppins;
+  font-size: 72px;
+  font-weight: 300;
+  color: #ff771f;
+}
+.newsCategories .newsQuotes .quotesClosed {
+  display: block;
+  transform: rotate(180deg) translate(5px, 30px);
+  font-family: Poppins;
+  font-size: 72px;
+  font-weight: 300;
+  color: #ff771f;
+}
+.newsCategories .soc i {
+  font-size: 18px;
+}
+.newsCategories .soc .facebook {
+  color: #45619d;
+}
+.newsCategories .soc .googlePlus {
+  color: #cf4539;
+}
+.newsCategories .soc .twitter {
+  color: #42c0fb;
+}
+.newsCategories .soc .skype {
+  color: #009ee5;
+}
+.newsCategories .soc .rss {
+  color: #fd9f13;
+}
+@media (max-width: 768px) {
+  .newsCategories .test {
+    flex-direction: column-reverse;
+  }
+}

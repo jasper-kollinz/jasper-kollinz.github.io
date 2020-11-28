@@ -1,0 +1,160 @@
+.newsDetails a:hover {
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  .newsDetails .newsDetailsWrap {
+    flex-direction: column-reverse;
+  }
+}
+.newsDetails .newsCategories .btn:hover, .newsDetails .newsCategories .btn-link:hover {
+  text-decoration: none !important;
+  box-shadow: none !important;
+}
+.newsDetails .newsCategories .btn:active, .newsDetails .newsCategories .btn-link:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.newsDetails .newsCategories .btn:focus, .newsDetails .newsCategories .btn-link:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  text-decoration: none;
+}
+.newsDetails .newsCategories .card {
+  position: relative;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  font-family: Nunito;
+}
+.newsDetails .newsCategories .card .card-header {
+  border-bottom: none;
+  background-color: transparent;
+}
+.newsDetails .newsCategories .card:hover {
+  box-shadow: none;
+}
+.newsDetails .newsCategories .card .card-body li {
+  list-style: none;
+  font-weight: 600;
+}
+.newsDetails .newsCategories .card .card-body li a {
+  font-weight: 600 !important;
+}
+.newsDetails .newsCategories .card .card-body > a::before {
+  content: url(/images/newsDetails/tochka.png);
+  position: absolute;
+  left: 20px;
+  bottom: 23px;
+}
+.newsDetails .newsCategories .card .card-body > a {
+  font-weight: 600 !important;
+}
+.newsDetails .newsCategories .card button i, .newsDetails .newsCategories .card button span {
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.newsDetails .newsCategories .card button span {
+  font-weight: 700;
+}
+.newsDetails .tags {
+  border-radius: 10px;
+  padding: 20px;
+  border: 1px solid lightgray;
+}
+.newsDetails .tags .col:hover a {
+  color: white;
+}
+.newsDetails .tags .col:hover {
+  cursor: pointer;
+  background-color: orange;
+}
+.newsDetails .newsImg {
+  border-radius: 10px;
+}
+.newsDetails .newsTitle {
+  font-family: Nunito;
+  font-size: 24px;
+  font-weight: 700;
+  color: #222222;
+}
+.newsDetails .newsBody {
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 32px;
+  color: #798795;
+}
+.newsDetails .newsQuotes {
+  border: 2px solid #ff771f;
+  padding: 80px 80px 80px 50px;
+  border-radius: 5px;
+  position: relative;
+}
+@media (max-width: 576px) {
+  .newsDetails .newsQuotes {
+    padding: 40px 40px 40px 25px;
+  }
+}
+.newsDetails .newsQuotes span {
+  color: #000000;
+  font-family: Nunito;
+  font-size: 32px;
+  font-weight: 100;
+  letter-spacing: normal;
+  line-height: 48px;
+}
+@media (max-width: 768px) {
+  .newsDetails .newsQuotes span {
+    font-size: 22px;
+  }
+}
+@media (max-width: 576px) {
+  .newsDetails .newsQuotes span {
+    font-size: 18px;
+  }
+}
+.newsDetails .newsQuotes .hangouts {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+}
+@media (max-width: 576px) {
+  .newsDetails .newsQuotes .hangouts {
+    right: 10px;
+  }
+}
+.newsDetails .newsQuotes .quotesOpen {
+  font-family: Poppins;
+  font-size: 72px;
+  font-weight: 300;
+  color: #ff771f;
+}
+.newsDetails .newsQuotes .quotesClosed {
+  display: block;
+  transform: rotate(180deg) translate(5px, 30px);
+  font-family: Poppins;
+  font-size: 72px;
+  font-weight: 300;
+  color: #ff771f;
+}
+.newsDetails .soc i {
+  font-size: 18px;
+}
+.newsDetails .soc .facebook {
+  color: #45619d;
+}
+.newsDetails .soc .googlePlus {
+  color: #cf4539;
+}
+.newsDetails .soc .twitter {
+  color: #42c0fb;
+}
+.newsDetails .soc .skype {
+  color: #009ee5;
+}
+.newsDetails .soc .rss {
+  color: #fd9f13;
+}

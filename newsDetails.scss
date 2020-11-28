@@ -1,0 +1,184 @@
+.newsDetails {
+  a:hover {
+    text-decoration: none;
+  }
+@media (max-width: 768px) {
+    .newsDetailsWrap {
+      flex-direction: column-reverse;
+    }
+  }
+
+  .newsCategories {
+    .btn,.btn-link {
+      &:hover {
+        text-decoration: none !important;
+        box-shadow: none !important;
+      }
+      &:active {
+        outline: none !important;
+        box-shadow: none !important;
+      }
+      &:focus {
+        outline: none !important;
+        box-shadow: none !important;
+        text-decoration: none;
+      }
+    }
+    .card {
+      position: relative;
+      border: 1px solid lightgray;
+      border-radius: 10px;
+      font-family: Nunito;
+      .card-header {
+          border-bottom: none;
+          background-color: transparent;
+      }      
+      &:hover {
+        box-shadow: none;
+      }
+      .card-body {
+        li {
+          list-style: none;
+          font-weight: 600; 
+          a {
+              font-weight: 600 !important;
+          }
+
+        }
+        & > a::before {
+            content: url(/images/newsDetails/tochka.png);
+            position: absolute;
+            left: 20px;
+            bottom: 23px;
+          }
+        &>a {
+            font-weight: 600 !important;
+        } 
+         
+      }
+      button {
+        i,span{
+          color: black;
+          font-size: 18px;
+          font-weight: 500;
+          text-decoration: none;
+        }
+        span {
+          font-weight: 700;
+        }
+      }
+    }
+  }
+
+  .tags {
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid lightgray;
+    .col:hover a {
+      color: white;
+    }
+
+    .col:hover {
+      cursor: pointer;
+      background-color: orange;
+    }
+  }
+
+  // News 
+  .newsImg {
+      border-radius: 10px;
+  }
+  .newsTitle {
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 700;
+    color: #222222;
+  }
+
+  .newsBody {
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 32px;
+    color: #798795;
+  }
+
+  // News Quotes
+
+  .newsQuotes {
+    border: 2px solid #ff771f;
+    padding: 80px 80px 80px 50px;
+    border-radius: 5px;
+    position: relative;
+    @media (max-width: 576px) {
+      padding:40px 40px 40px 25px;
+    }
+
+    span {
+      color: #000000;
+      font-family: Nunito;
+      font-size: 32px;
+      font-weight: 100;
+
+      letter-spacing: normal;
+      line-height: 48px;
+
+      @media (max-width: 768px) {
+        font-size: 22px;
+      }
+      @media (max-width: 576px) {
+        font-size: 18px;
+      }
+    }
+    .hangouts {
+      position: absolute;
+      top: 15px;
+      right: 30px;
+      @media (max-width:576px) {
+        right: 10px ;
+      }
+    }
+
+    .quotesOpen {
+      font-family: Poppins;
+      font-size: 72px;
+      font-weight: 300;
+      color: #ff771f;
+    }
+    .quotesClosed {
+      display: block;
+      transform: rotate(180deg) translate(5px, 30px);
+      font-family: Poppins;
+      font-size: 72px;
+      font-weight: 300;
+      color: #ff771f;
+    }
+    // next is end of quotes
+  }
+
+  //Socials
+  .soc {
+    i {
+      font-size: 18px;
+    }
+    .facebook {
+      color: #45619d;
+    }
+    .googlePlus {
+      color: #cf4539;
+    }
+    .twitter {
+      color: #42c0fb;
+    }
+    .skype {
+      color: #009ee5;
+    }
+    .rss {
+      color: #fd9f13;
+    }
+  }
+
+
+}
